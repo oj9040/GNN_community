@@ -1,7 +1,9 @@
 
 dofile('tablejoanutils.lua')
 file = io.open(opt.datagraphpath)
+print (opt.datagraphpath)
 cfile = io.open(opt.datacommpath)
+print (opt.datacommpath)
 
 function convert_to_Tensor( NE, NC )
 	--this function receives a table of neighbors per node 
@@ -53,6 +55,8 @@ NE={}
 	
 E={}
 i=1
+
+print (file)
 if file then
 	for line in file:lines() do
 		local l = line:split("\t")

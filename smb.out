@@ -1,0 +1,12 @@
+Error: unrecognized flag --u
+Usage: th [options] [script.lua [arguments]]
+
+Options:
+  -l name            load library name
+  -e statement       execute statement
+  -h,--help          print this help
+  -a,--async         preload async (libuv) and start async repl (BETA)
+  -g,--globals       monitor global variables (print a warning on creation/access)
+  -gg,--gglobals     monitor global variables (throw an error on creation/access)
+  -x,--gfx           start gfx server and load gfx env
+  -i,--interactive   enter the REPL after executing a script 

@@ -1,0 +1,668 @@
+permutation
+	
+ 2  1
+ 1  2
+[torch.DoubleTensor of size 2x2]
+
+    2
+ 1000
+[torch.LongStorage of size 2]
+
+Epoch[1] Train loss 0.243946 	
+ConfusionMatrix:
+[[   14534    1466]   90.838% 	[class: 1]
+ [    1593   14407]]  90.044% 	[class: 2]
+ + average row correct: 90.440624952316% 
+ + average rowUcol correct (VOC measure): 82.549187541008% 
+ + global correct: 90.440625%
+Epoch[2] Train loss 0.210488 	
+ConfusionMatrix:
+[[   14715    1285]   91.969% 	[class: 1]
+ [    1485   14515]]  90.719% 	[class: 2]
+ + average row correct: 91.343751549721% 
+ + average rowUcol correct (VOC measure): 84.066197276115% 
+ + global correct: 91.34375%
+Epoch[3] Train loss 0.185268 	
+ConfusionMatrix:
+[[   14862    1138]   92.888% 	[class: 1]
+ [    1202   14798]]  92.488% 	[class: 2]
+ + average row correct: 92.687502503395% 
+ + average rowUcol correct (VOC measure): 86.371532082558% 
+ + global correct: 92.6875%
+Epoch[4] Train loss 0.190521 	
+ConfusionMatrix:
+[[   14790    1210]   92.437% 	[class: 1]
+ [    1253   14747]]  92.169% 	[class: 2]
+ + average row correct: 92.303124070168% 
+ + average rowUcol correct (VOC measure): 85.706388950348% 
+ + global correct: 92.303125%
+Epoch[5] Train loss 0.167951 	
+ConfusionMatrix:
+[[   14967    1033]   93.544% 	[class: 1]
+ [    1123   14877]]  92.981% 	[class: 2]
+ + average row correct: 93.262499570847% 
+ + average rowUcol correct (VOC measure): 87.375485897064% 
+ + global correct: 93.2625%
+Epoch[6] Train loss 0.168265 	
+ConfusionMatrix:
+[[   14939    1061]   93.369% 	[class: 1]
+ [    1131   14869]]  92.931% 	[class: 2]
+ + average row correct: 93.150001764297% 
+ + average rowUcol correct (VOC measure): 87.178233265877% 
+ + global correct: 93.15%
+Epoch[7] Train loss 0.164955 	
+ConfusionMatrix:
+[[   14908    1092]   93.175% 	[class: 1]
+ [    1078   14922]]  93.262% 	[class: 2]
+ + average row correct: 93.218749761581% 
+ + average rowUcol correct (VOC measure): 87.298798561096% 
+ + global correct: 93.21875%
+Epoch[8] Train loss 0.163994 	
+ConfusionMatrix:
+[[   14925    1075]   93.281% 	[class: 1]
+ [    1060   14940]]  93.375% 	[class: 2]
+ + average row correct: 93.328124284744% 
+ + average rowUcol correct (VOC measure): 87.49084174633% 
+ + global correct: 93.328125%
+Epoch[9] Train loss 0.175042 	
+ConfusionMatrix:
+[[   14831    1169]   92.694% 	[class: 1]
+ [    1093   14907]]  93.169% 	[class: 2]
+ + average row correct: 92.93124973774% 
+ + average rowUcol correct (VOC measure): 86.795800924301% 
+ + global correct: 92.93125%
+Epoch[10] Train loss 0.172500 	
+ConfusionMatrix:
+[[   14856    1144]   92.850% 	[class: 1]
+ [    1111   14889]]  93.056% 	[class: 2]
+ + average row correct: 92.953124642372% 
+ + average rowUcol correct (VOC measure): 86.834025382996% 
+ + global correct: 92.953125%
+Epoch[11] Train loss 0.160233 	
+ConfusionMatrix:
+[[   14947    1053]   93.419% 	[class: 1]
+ [    1005   14995]]  93.719% 	[class: 2]
+ + average row correct: 93.568748235703% 
+ + average rowUcol correct (VOC measure): 87.914708256721% 
+ + global correct: 93.56875%
+Epoch[12] Train loss 0.159399 	
+ConfusionMatrix:
+[[   14932    1068]   93.325% 	[class: 1]
+ [    1005   14995]]  93.719% 	[class: 2]
+ + average row correct: 93.521875143051% 
+ + average rowUcol correct (VOC measure): 87.831965088844% 
+ + global correct: 93.521875%
+Epoch[13] Train loss 0.156200 	
+ConfusionMatrix:
+[[   14969    1031]   93.556% 	[class: 1]
+ [     997   15003]]  93.769% 	[class: 2]
+ + average row correct: 93.66250038147% 
+ + average rowUcol correct (VOC measure): 88.080394268036% 
+ + global correct: 93.6625%
+Epoch[14] Train loss 0.149322 	
+ConfusionMatrix:
+[[   14989    1011]   93.681% 	[class: 1]
+ [     899   15101]]  94.381% 	[class: 2]
+ + average row correct: 94.031250476837% 
+ + average rowUcol correct (VOC measure): 88.734763860703% 
+ + global correct: 94.03125%
+Epoch[15] Train loss 0.159580 	
+ConfusionMatrix:
+[[   14997    1003]   93.731% 	[class: 1]
+ [    1042   14958]]  93.488% 	[class: 2]
+ + average row correct: 93.609374761581% 
+ + average rowUcol correct (VOC measure): 87.986472249031% 
+ + global correct: 93.609375%
+Epoch[16] Train loss 0.162491 	
+ConfusionMatrix:
+[[   14894    1106]   93.088% 	[class: 1]
+ [    1016   14984]]  93.650% 	[class: 2]
+ + average row correct: 93.368750810623% 
+ + average rowUcol correct (VOC measure): 87.562191486359% 
+ + global correct: 93.36875%
+Epoch[17] Train loss 0.169329 	
+ConfusionMatrix:
+[[   14953    1047]   93.456% 	[class: 1]
+ [    1154   14846]]  92.787% 	[class: 2]
+ + average row correct: 93.121874332428% 
+ + average rowUcol correct (VOC measure): 87.128907442093% 
+ + global correct: 93.121875%
+Epoch[18] Train loss 0.159048 	
+ConfusionMatrix:
+[[   14922    1078]   93.262% 	[class: 1]
+ [     977   15023]]  93.894% 	[class: 2]
+ + average row correct: 93.578124046326% 
+ + average rowUcol correct (VOC measure): 87.931180000305% 
+ + global correct: 93.578125%
+Epoch[19] Train loss 0.161608 	
+ConfusionMatrix:
+[[   14937    1063]   93.356% 	[class: 1]
+ [    1036   14964]]  93.525% 	[class: 2]
+ + average row correct: 93.440625071526% 
+ + average rowUcol correct (VOC measure): 87.688782811165% 
+ + global correct: 93.440625%
+Epoch[20] Train loss 0.157845 	
+ConfusionMatrix:
+[[   14939    1061]   93.369% 	[class: 1]
+ [    1021   14979]]  93.619% 	[class: 2]
+ + average row correct: 93.493750691414% 
+ + average rowUcol correct (VOC measure): 87.782391905785% 
+ + global correct: 93.49375%
+Epoch[21] Train loss 0.168016 	
+ConfusionMatrix:
+[[   14956    1044]   93.475% 	[class: 1]
+ [    1114   14886]]  93.037% 	[class: 2]
+ + average row correct: 93.256250023842% 
+ + average rowUcol correct (VOC measure): 87.364545464516% 
+ + global correct: 93.25625%
+Epoch[22] Train loss 0.154928 	
+ConfusionMatrix:
+[[   14995    1005]   93.719% 	[class: 1]
+ [     972   15028]]  93.925% 	[class: 2]
+ + average row correct: 93.821874260902% 
+ + average rowUcol correct (VOC measure): 88.36270570755% 
+ + global correct: 93.821875%
+Epoch[23] Train loss 0.156969 	
+ConfusionMatrix:
+[[   14933    1067]   93.331% 	[class: 1]
+ [     967   15033]]  93.956% 	[class: 2]
+ + average row correct: 93.643748760223% 
+ + average rowUcol correct (VOC measure): 88.047143816948% 
+ + global correct: 93.64375%
+Epoch[24] Train loss 0.160878 	
+ConfusionMatrix:
+[[   14933    1067]   93.331% 	[class: 1]
+ [    1002   14998]]  93.738% 	[class: 2]
+ + average row correct: 93.534374237061% 
+ + average rowUcol correct (VOC measure): 87.854015827179% 
+ + global correct: 93.534375%
+Epoch[25] Train loss 0.155165 	
+ConfusionMatrix:
+[[   14956    1044]   93.475% 	[class: 1]
+ [     971   15029]]  93.931% 	[class: 2]
+ + average row correct: 93.703126907349% 
+ + average rowUcol correct (VOC measure): 88.152229785919% 
+ + global correct: 93.703125%
+Epoch[26] Train loss 0.155357 	
+ConfusionMatrix:
+[[   15002     998]   93.762% 	[class: 1]
+ [    1006   14994]]  93.713% 	[class: 2]
+ + average row correct: 93.737500905991% 
+ + average rowUcol correct (VOC measure): 88.213151693344% 
+ + global correct: 93.7375%
+Epoch[27] Train loss 0.184382 	
+ConfusionMatrix:
+[[   14782    1218]   92.387% 	[class: 1]
+ [    1192   14808]]  92.550% 	[class: 2]
+ + average row correct: 92.468747496605% 
+ + average rowUcol correct (VOC measure): 85.992434620857% 
+ + global correct: 92.46875%
+Epoch[28] Train loss 0.173480 	
+ConfusionMatrix:
+[[   14825    1175]   92.656% 	[class: 1]
+ [    1084   14916]]  93.225% 	[class: 2]
+ + average row correct: 92.940625548363% 
+ + average rowUcol correct (VOC measure): 86.81213259697% 
+ + global correct: 92.940625%
+Epoch[29] Train loss 0.159285 	
+ConfusionMatrix:
+[[   15004     996]   93.775% 	[class: 1]
+ [    1050   14950]]  93.437% 	[class: 2]
+ + average row correct: 93.606248497963% 
+ + average rowUcol correct (VOC measure): 87.980934977531% 
+ + global correct: 93.60625%
+Epoch[30] Train loss 0.156067 	
+ConfusionMatrix:
+[[   14985    1015]   93.656% 	[class: 1]
+ [    1045   14955]]  93.469% 	[class: 2]
+ + average row correct: 93.562498688698% 
+ + average rowUcol correct (VOC measure): 87.903687357903% 
+ + global correct: 93.5625%
+Epoch[31] Train loss 0.156400 	
+ConfusionMatrix:
+[[   15032     968]   93.950% 	[class: 1]
+ [    1018   14982]]  93.638% 	[class: 2]
+ + average row correct: 93.793749809265% 
+ + average rowUcol correct (VOC measure): 88.312807679176% 
+ + global correct: 93.79375%
+Epoch[32] Train loss 0.155975 	
+ConfusionMatrix:
+[[   15028     972]   93.925% 	[class: 1]
+ [    1026   14974]]  93.587% 	[class: 2]
+ + average row correct: 93.756249547005% 
+ + average rowUcol correct (VOC measure): 88.246339559555% 
+ + global correct: 93.75625%
+Epoch[33] Train loss 0.153868 	
+ConfusionMatrix:
+[[   15036     964]   93.975% 	[class: 1]
+ [    1005   14995]]  93.719% 	[class: 2]
+ + average row correct: 93.846875429153% 
+ + average rowUcol correct (VOC measure): 88.40706050396% 
+ + global correct: 93.846875%
+Epoch[34] Train loss 0.160428 	
+ConfusionMatrix:
+[[   14962    1038]   93.512% 	[class: 1]
+ [    1033   14967]]  93.544% 	[class: 2]
+ + average row correct: 93.528124690056% 
+ + average rowUcol correct (VOC measure): 87.843033671379% 
+ + global correct: 93.528125%
+Epoch[35] Train loss 0.151803 	
+ConfusionMatrix:
+[[   15015     985]   93.844% 	[class: 1]
+ [     980   15020]]  93.875% 	[class: 2]
+ + average row correct: 93.859377503395% 
+ + average rowUcol correct (VOC measure): 88.429266214371% 
+ + global correct: 93.859375%
+Epoch[36] Train loss 0.161228 	
+ConfusionMatrix:
+[[   14927    1073]   93.294% 	[class: 1]
+ [    1014   14986]]  93.663% 	[class: 2]
+ + average row correct: 93.478125333786% 
+ + average rowUcol correct (VOC measure): 87.754827737808% 
+ + global correct: 93.478125%
+Epoch[37] Train loss 0.149864 	
+ConfusionMatrix:
+[[   14979    1021]   93.619% 	[class: 1]
+ [     966   15034]]  93.963% 	[class: 2]
+ + average row correct: 93.790626525879% 
+ + average rowUcol correct (VOC measure): 88.307264447212% 
+ + global correct: 93.790625%
+Epoch[38] Train loss 0.155539 	
+ConfusionMatrix:
+[[   14996    1004]   93.725% 	[class: 1]
+ [     989   15011]]  93.819% 	[class: 2]
+ + average row correct: 93.771874904633% 
+ + average rowUcol correct (VOC measure): 88.274055719376% 
+ + global correct: 93.771875%
+Epoch[39] Train loss 0.159132 	
+ConfusionMatrix:
+[[   14937    1063]   93.356% 	[class: 1]
+ [     992   15008]]  93.800% 	[class: 2]
+ + average row correct: 93.578127026558% 
+ + average rowUcol correct (VOC measure): 87.931236624718% 
+ + global correct: 93.578125%
+Epoch[40] Train loss 0.151566 	
+ConfusionMatrix:
+[[   15016     984]   93.850% 	[class: 1]
+ [     953   15047]]  94.044% 	[class: 2]
+ + average row correct: 93.946874141693% 
+ + average rowUcol correct (VOC measure): 88.584721088409% 
+ + global correct: 93.946875%
+Epoch[41] Train loss 0.154953 	
+ConfusionMatrix:
+[[   14982    1018]   93.638% 	[class: 1]
+ [    1013   14987]]  93.669% 	[class: 2]
+ + average row correct: 93.653127551079% 
+ + average rowUcol correct (VOC measure): 88.063824176788% 
+ + global correct: 93.653125%
+Epoch[42] Train loss 0.160753 	
+ConfusionMatrix:
+[[   14934    1066]   93.338% 	[class: 1]
+ [    1042   14958]]  93.488% 	[class: 2]
+ + average row correct: 93.412500619888% 
+ + average rowUcol correct (VOC measure): 87.639257311821% 
+ + global correct: 93.4125%
+Epoch[43] Train loss 0.156856 	
+ConfusionMatrix:
+[[   14963    1037]   93.519% 	[class: 1]
+ [     972   15028]]  93.925% 	[class: 2]
+ + average row correct: 93.721875548363% 
+ + average rowUcol correct (VOC measure): 88.185438513756% 
+ + global correct: 93.721875%
+Epoch[44] Train loss 0.164481 	
+ConfusionMatrix:
+[[   14863    1137]   92.894% 	[class: 1]
+ [    1068   14932]]  93.325% 	[class: 2]
+ + average row correct: 93.109375238419% 
+ + average rowUcol correct (VOC measure): 87.107095122337% 
+ + global correct: 93.109375%
+Epoch[45] Train loss 0.154253 	
+ConfusionMatrix:
+[[   15029     971]   93.931% 	[class: 1]
+ [     993   15007]]  93.794% 	[class: 2]
+ + average row correct: 93.862500786781% 
+ + average rowUcol correct (VOC measure): 88.434809446335% 
+ + global correct: 93.8625%
+Epoch[46] Train loss 0.164233 	
+ConfusionMatrix:
+[[   14919    1081]   93.244% 	[class: 1]
+ [     995   15005]]  93.781% 	[class: 2]
+ + average row correct: 93.512499332428% 
+ + average rowUcol correct (VOC measure): 87.815392017365% 
+ + global correct: 93.5125%
+Epoch[47] Train loss 0.148180 	
+ConfusionMatrix:
+[[   15038     962]   93.988% 	[class: 1]
+ [     949   15051]]  94.069% 	[class: 2]
+ + average row correct: 94.028124213219% 
+ + average rowUcol correct (VOC measure): 88.729318976402% 
+ + global correct: 94.028125%
+Epoch[48] Train loss 0.154923 	
+ConfusionMatrix:
+[[   14975    1025]   93.594% 	[class: 1]
+ [     991   15009]]  93.806% 	[class: 2]
+ + average row correct: 93.70000064373% 
+ + average rowUcol correct (VOC measure): 88.146743178368% 
+ + global correct: 93.7%
+Epoch[49] Train loss 0.160787 	
+ConfusionMatrix:
+[[   14920    1080]   93.250% 	[class: 1]
+ [    1018   14982]]  93.638% 	[class: 2]
+ + average row correct: 93.443751335144% 
+ + average rowUcol correct (VOC measure): 87.694251537323% 
+ + global correct: 93.44375%
+Epoch[50] Train loss 0.179031 	
+ConfusionMatrix:
+[[   14793    1207]   92.456% 	[class: 1]
+ [    1114   14886]]  93.037% 	[class: 2]
+ + average row correct: 92.746874690056% 
+ + average rowUcol correct (VOC measure): 86.474654078484% 
+ + global correct: 92.746875%
+Epoch[51] Train loss 0.161025 	
+ConfusionMatrix:
+[[   14979    1021]   93.619% 	[class: 1]
+ [    1073   14927]]  93.294% 	[class: 2]
+ + average row correct: 93.456250429153% 
+ + average rowUcol correct (VOC measure): 87.716284394264% 
+ + global correct: 93.45625%
+Epoch[52] Train loss 0.151801 	
+ConfusionMatrix:
+[[   15006     994]   93.787% 	[class: 1]
+ [     982   15018]]  93.862% 	[class: 2]
+ + average row correct: 93.824997544289% 
+ + average rowUcol correct (VOC measure): 88.368257880211% 
+ + global correct: 93.825%
+Epoch[53] Train loss 0.157023 	
+ConfusionMatrix:
+[[   14922    1078]   93.262% 	[class: 1]
+ [     992   15008]]  93.800% 	[class: 2]
+ + average row correct: 93.531250953674% 
+ + average rowUcol correct (VOC measure): 87.848469614983% 
+ + global correct: 93.53125%
+Epoch[54] Train loss 0.159045 	
+ConfusionMatrix:
+[[   14987    1013]   93.669% 	[class: 1]
+ [    1010   14990]]  93.687% 	[class: 2]
+ + average row correct: 93.678125739098% 
+ + average rowUcol correct (VOC measure): 88.108044862747% 
+ + global correct: 93.678125%
+Epoch[55] Train loss 0.167770 	
+ConfusionMatrix:
+[[   14875    1125]   92.969% 	[class: 1]
+ [    1075   14925]]  93.281% 	[class: 2]
+ + average row correct: 93.125000596046% 
+ + average rowUcol correct (VOC measure): 87.134474515915% 
+ + global correct: 93.125%
+Epoch[56] Train loss 0.157145 	
+ConfusionMatrix:
+[[   14939    1061]   93.369% 	[class: 1]
+ [     994   15006]]  93.787% 	[class: 2]
+ + average row correct: 93.578124046326% 
+ + average rowUcol correct (VOC measure): 87.931242585182% 
+ + global correct: 93.578125%
+Epoch[57] Train loss 0.154865 	
+ConfusionMatrix:
+[[   15011     989]   93.819% 	[class: 1]
+ [    1043   14957]]  93.481% 	[class: 2]
+ + average row correct: 93.649998307228% 
+ + average rowUcol correct (VOC measure): 88.058269023895% 
+ + global correct: 93.65%
+Epoch[58] Train loss 0.193269 	
+ConfusionMatrix:
+[[   14739    1261]   92.119% 	[class: 1]
+ [    1234   14766]]  92.287% 	[class: 2]
+ + average row correct: 92.203125357628% 
+ + average rowUcol correct (VOC measure): 85.534128546715% 
+ + global correct: 92.203125%
+Epoch[59] Train loss 0.152889 	
+ConfusionMatrix:
+[[   14951    1049]   93.444% 	[class: 1]
+ [     970   15030]]  93.937% 	[class: 2]
+ + average row correct: 93.690624833107% 
+ + average rowUcol correct (VOC measure): 88.130098581314% 
+ + global correct: 93.690625%
+Epoch[60] Train loss 0.161645 	
+ConfusionMatrix:
+[[   14939    1061]   93.369% 	[class: 1]
+ [    1065   14935]]  93.344% 	[class: 2]
+ + average row correct: 93.356251716614% 
+ + average rowUcol correct (VOC measure): 87.540292739868% 
+ + global correct: 93.35625%
+Epoch[61] Train loss 0.160892 	
+ConfusionMatrix:
+[[   14952    1048]   93.450% 	[class: 1]
+ [    1056   14944]]  93.400% 	[class: 2]
+ + average row correct: 93.424999713898% 
+ + average rowUcol correct (VOC measure): 87.661269307137% 
+ + global correct: 93.425%
+Epoch[62] Train loss 0.160485 	
+ConfusionMatrix:
+[[   14935    1065]   93.344% 	[class: 1]
+ [    1011   14989]]  93.681% 	[class: 2]
+ + average row correct: 93.51250231266% 
+ + average rowUcol correct (VOC measure): 87.815442681313% 
+ + global correct: 93.5125%
+Epoch[63] Train loss 0.157974 	
+ConfusionMatrix:
+[[   14978    1022]   93.612% 	[class: 1]
+ [    1029   14971]]  93.569% 	[class: 2]
+ + average row correct: 93.590623140335% 
+ + average rowUcol correct (VOC measure): 87.953361868858% 
+ + global correct: 93.590625%
+Epoch[64] Train loss 0.154993 	
+ConfusionMatrix:
+[[   14997    1003]   93.731% 	[class: 1]
+ [    1013   14987]]  93.669% 	[class: 2]
+ + average row correct: 93.70000064373% 
+ + average rowUcol correct (VOC measure): 88.146755099297% 
+ + global correct: 93.7%
+Epoch[65] Train loss 0.154485 	
+ConfusionMatrix:
+[[   14975    1025]   93.594% 	[class: 1]
+ [     988   15012]]  93.825% 	[class: 2]
+ + average row correct: 93.709376454353% 
+ + average rowUcol correct (VOC measure): 88.163334131241% 
+ + global correct: 93.709375%
+Epoch[66] Train loss 0.153564 	
+ConfusionMatrix:
+[[   14987    1013]   93.669% 	[class: 1]
+ [    1001   14999]]  93.744% 	[class: 2]
+ + average row correct: 93.706250190735% 
+ + average rowUcol correct (VOC measure): 88.157814741135% 
+ + global correct: 93.70625%
+Epoch[67] Train loss 0.158927 	
+ConfusionMatrix:
+[[   14935    1065]   93.344% 	[class: 1]
+ [    1011   14989]]  93.681% 	[class: 2]
+ + average row correct: 93.51250231266% 
+ + average rowUcol correct (VOC measure): 87.815442681313% 
+ + global correct: 93.5125%
+Epoch[68] Train loss 0.160270 	
+ConfusionMatrix:
+[[   14940    1060]   93.375% 	[class: 1]
+ [    1012   14988]]  93.675% 	[class: 2]
+ + average row correct: 93.524998426437% 
+ + average rowUcol correct (VOC measure): 87.837496399879% 
+ + global correct: 93.525%
+Epoch[69] Train loss 0.150973 	
+ConfusionMatrix:
+[[   15037     963]   93.981% 	[class: 1]
+ [     937   15063]]  94.144% 	[class: 2]
+ + average row correct: 94.062498211861% 
+ + average rowUcol correct (VOC measure): 88.790553808212% 
+ + global correct: 94.0625%
+Epoch[70] Train loss 0.155777 	
+ConfusionMatrix:
+[[   14940    1060]   93.375% 	[class: 1]
+ [     987   15013]]  93.831% 	[class: 2]
+ + average row correct: 93.603122234344% 
+ + average rowUcol correct (VOC measure): 87.975391745567% 
+ + global correct: 93.603125%
+Epoch[71] Train loss 0.159604 	
+ConfusionMatrix:
+[[   14930    1070]   93.313% 	[class: 1]
+ [     986   15014]]  93.837% 	[class: 2]
+ + average row correct: 93.575000762939% 
+ + average rowUcol correct (VOC measure): 87.925693392754% 
+ + global correct: 93.575%
+Epoch[72] Train loss 0.148535 	
+ConfusionMatrix:
+[[   15040     960]   94.000% 	[class: 1]
+ [     951   15049]]  94.056% 	[class: 2]
+ + average row correct: 94.028124213219% 
+ + average rowUcol correct (VOC measure): 88.729321956635% 
+ + global correct: 94.028125%
+Epoch[73] Train loss 0.166198 	
+ConfusionMatrix:
+[[   14901    1099]   93.131% 	[class: 1]
+ [    1084   14916]]  93.225% 	[class: 2]
+ + average row correct: 93.178126215935% 
+ + average rowUcol correct (VOC measure): 87.227568030357% 
+ + global correct: 93.178125%
+Epoch[74] Train loss 0.161548 	
+ConfusionMatrix:
+[[   14946    1054]   93.413% 	[class: 1]
+ [    1011   14989]]  93.681% 	[class: 2]
+ + average row correct: 93.546876311302% 
+ + average rowUcol correct (VOC measure): 87.8761023283% 
+ + global correct: 93.546875%
+Epoch[75] Train loss 0.156839 	
+ConfusionMatrix:
+[[   14976    1024]   93.600% 	[class: 1]
+ [     993   15007]]  93.794% 	[class: 2]
+ + average row correct: 93.696874380112% 
+ + average rowUcol correct (VOC measure): 88.141214847565% 
+ + global correct: 93.696875%
+Epoch[76] Train loss 0.154840 	
+ConfusionMatrix:
+[[   14967    1033]   93.544% 	[class: 1]
+ [     952   15048]]  94.050% 	[class: 2]
+ + average row correct: 93.796876072884% 
+ + average rowUcol correct (VOC measure): 88.318309187889% 
+ + global correct: 93.796875%
+Epoch[77] Train loss 0.154114 	
+ConfusionMatrix:
+[[   14969    1031]   93.556% 	[class: 1]
+ [     986   15014]]  93.837% 	[class: 2]
+ + average row correct: 93.696874380112% 
+ + average rowUcol correct (VOC measure): 88.141202926636% 
+ + global correct: 93.696875%
+Epoch[78] Train loss 0.159484 	
+ConfusionMatrix:
+[[   14926    1074]   93.287% 	[class: 1]
+ [    1016   14984]]  93.650% 	[class: 2]
+ + average row correct: 93.468749523163% 
+ + average rowUcol correct (VOC measure): 87.738305330276% 
+ + global correct: 93.46875%
+Epoch[79] Train loss 0.159119 	
+ConfusionMatrix:
+[[   14935    1065]   93.344% 	[class: 1]
+ [    1020   14980]]  93.625% 	[class: 2]
+ + average row correct: 93.484374880791% 
+ + average rowUcol correct (VOC measure): 87.765857577324% 
+ + global correct: 93.484375%
+Epoch[80] Train loss 0.160692 	
+ConfusionMatrix:
+[[   14934    1066]   93.338% 	[class: 1]
+ [    1047   14953]]  93.456% 	[class: 2]
+ + average row correct: 93.39687526226% 
+ + average rowUcol correct (VOC measure): 87.611755728722% 
+ + global correct: 93.396875%
+Epoch[81] Train loss 0.155861 	
+ConfusionMatrix:
+[[   14950    1050]   93.437% 	[class: 1]
+ [     992   15008]]  93.800% 	[class: 2]
+ + average row correct: 93.618750572205% 
+ + average rowUcol correct (VOC measure): 88.003018498421% 
+ + global correct: 93.61875%
+Epoch[82] Train loss 0.159710 	
+ConfusionMatrix:
+[[   14965    1035]   93.531% 	[class: 1]
+ [    1001   14999]]  93.744% 	[class: 2]
+ + average row correct: 93.637499213219% 
+ + average rowUcol correct (VOC measure): 88.036185503006% 
+ + global correct: 93.6375%
+Epoch[83] Train loss 0.157166 	
+ConfusionMatrix:
+[[   14952    1048]   93.450% 	[class: 1]
+ [     991   15009]]  93.806% 	[class: 2]
+ + average row correct: 93.628123402596% 
+ + average rowUcol correct (VOC measure): 88.019591569901% 
+ + global correct: 93.628125%
+Epoch[84] Train loss 0.155588 	
+ConfusionMatrix:
+[[   14966    1034]   93.537% 	[class: 1]
+ [    1025   14975]]  93.594% 	[class: 2]
+ + average row correct: 93.565624952316% 
+ + average rowUcol correct (VOC measure): 87.909215688705% 
+ + global correct: 93.565625%
+Epoch[85] Train loss 0.148238 	
+ConfusionMatrix:
+[[   14998    1002]   93.738% 	[class: 1]
+ [     938   15062]]  94.138% 	[class: 2]
+ + average row correct: 93.937501311302% 
+ + average rowUcol correct (VOC measure): 88.568019866943% 
+ + global correct: 93.9375%
+Epoch[86] Train loss 0.152745 	
+ConfusionMatrix:
+[[   14996    1004]   93.725% 	[class: 1]
+ [     977   15023]]  93.894% 	[class: 2]
+ + average row correct: 93.809375166893% 
+ + average rowUcol correct (VOC measure): 88.340535759926% 
+ + global correct: 93.809375%
+Epoch[87] Train loss 0.154556 	
+ConfusionMatrix:
+[[   14957    1043]   93.481% 	[class: 1]
+ [     974   15026]]  93.913% 	[class: 2]
+ + average row correct: 93.696874380112% 
+ + average rowUcol correct (VOC measure): 88.141176104546% 
+ + global correct: 93.696875%
+Epoch[88] Train loss 0.155974 	
+ConfusionMatrix:
+[[   14960    1040]   93.500% 	[class: 1]
+ [     964   15036]]  93.975% 	[class: 2]
+ + average row correct: 93.737500905991% 
+ + average rowUcol correct (VOC measure): 88.213092088699% 
+ + global correct: 93.7375%
+Epoch[89] Train loss 0.154978 	
+ConfusionMatrix:
+[[   14973    1027]   93.581% 	[class: 1]
+ [    1004   14996]]  93.725% 	[class: 2]
+ + average row correct: 93.653124570847% 
+ + average rowUcol correct (VOC measure): 88.063821196556% 
+ + global correct: 93.653125%
+Epoch[90] Train loss 0.160763 	
+ConfusionMatrix:
+[[   14889    1111]   93.056% 	[class: 1]
+ [     988   15012]]  93.825% 	[class: 2]
+ + average row correct: 93.440625071526% 
+ + average rowUcol correct (VOC measure): 87.688627839088% 
+ + global correct: 93.440625%
+Epoch[91] Train loss 0.155336 	
+ConfusionMatrix:
+[[   14980    1020]   93.625% 	[class: 1]
+ [     960   15040]]  94.000% 	[class: 2]
+ + average row correct: 93.812498450279% 
+ + average rowUcol correct (VOC measure): 88.346049189568% 
+ + global correct: 93.8125%
+Epoch[92] Train loss 0.154985 	
+ConfusionMatrix:
+[[   14974    1026]   93.587% 	[class: 1]
+ [     980   15020]]  93.875% 	[class: 2]
+ + average row correct: 93.731251358986% 
+ + average rowUcol correct (VOC measure): 88.202062249184% 
+ + global correct: 93.73125%
+Epoch[93] Train loss 0.146839 	
+ConfusionMatrix:
+[[   15019     981]   93.869% 	[class: 1]
+ [     907   15093]]  94.331% 	[class: 2]
+ + average row correct: 94.100001454353% 
+ + average rowUcol correct (VOC measure): 88.857358694077% 
+ + global correct: 94.1%
+Epoch[94] Train loss 0.154640 	
+ConfusionMatrix:
+[[   14986    1014]   93.663% 	[class: 1]
+ [    1029   14971]]  93.569% 	[class: 2]
+ + average row correct: 93.615624308586% 
+ + average rowUcol correct (VOC measure): 87.997528910637% 
+ + global correct: 93.615625%

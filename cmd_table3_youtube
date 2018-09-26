@@ -1,0 +1,4 @@
+#!/bin/sh
+
+nohup th snap.lua -path ./snap_table3_youtube2/ -optmethod adamax -layers 30 -learningRate 0.004 -type double -graph 'youtube' > snap_youtube2.out &
+

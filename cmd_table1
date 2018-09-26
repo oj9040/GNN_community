@@ -1,0 +1,4 @@
+#!/bin/sh
+
+
+nohup th sbm.lua -mixture 0 -p 0 -q 18 -N 400 -nfeatures 2 -path ./sbmp_table1/ -optmethod adam -type double -nclasses 5 -layers 30 -learningRate 0.004 > sbm_table1.out &

@@ -41,7 +41,8 @@ Q=( 0 0.25 0.5 0.75 1 1.25 1.5)
 arrayinds=${!P[*]}
 
 for i in $arrayinds; do
-	th sbm.lua -gpunum $1 -L 32 -nclasses 2 -N 1000 -q ${Q[i]} -p ${P[i]} -sq 0 -path /scratch/sbm &
+	#th sbm.lua -gpunum $1 -L 32 -nclasses 2 -N 1000 -q ${Q[i]} -p ${P[i]} -sq 0 -path ./scratch/sbm -type double &
+	th sbm.lua -L 32 -nclasses 2 -N 1000 -q ${Q[i]} -p ${P[i]} -path ./scratch/sbm -type double
 	PID=$!
 	queue $PID
 	while [ $NUM -ge $MAX_PROC ] ; do

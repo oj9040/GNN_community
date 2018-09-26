@@ -35,7 +35,7 @@ cutorch.setDevice(opt.gpunum)
 cutorch.manualSeed(os.time())
 end
 
-opt.datagraphpathroot='.' -- path to the folder where corresponding graph files are
+opt.datagraphpathroot='./' -- path to the folder where corresponding graph files are
 opt.datagraphpath = opt.datagraphpathroot .. 'com-' .. opt.graph .. '.ungraph.txt'
 opt.datacommpath = opt.datagraphpathroot .. 'com-' .. opt.graph .. '.top5000.cmty.txt'
 
@@ -153,8 +153,8 @@ plate = torch.LongTensor({{1,2,3},{2,1,3}})
 perms = 2
 end
 
-permuteprotect = cast(permuteprotect)
-plate = cast(plate)
+--permuteprotect = cast(permuteprotect)
+--plate = cast(plate)
 
 prho = 0.98 --running average factor (display purposes only)
 running_avg = 0
@@ -186,7 +186,9 @@ local function train()
 			losses=cast(torch.Tensor(perms))
 			predt = pred:clone()
 			local laball = cast(torch.Tensor(inp:size(3),perms)):zero()
+            --print (perms)
 			for s=1, perms do
+                --print (plate[s])
 				local critt = crit:clone()
 				local tper = permuteprotect:forward({target,plate[s]})
 				_,labtmp = torch.max(tper,2)

@@ -1,0 +1,10 @@
+permutation
+	
+ 2  1
+ 1  2
+[torch.DoubleTensor of size 2x2]
+
+    2
+ 1000
+[torch.LongStorage of size 2]
+

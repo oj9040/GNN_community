@@ -2,7 +2,7 @@ require 'nn'
 require 'optim'
 require 'nngraph'
 local c = require 'trepl.colorize'
-
+dofile "./permute.lua"
 
 cmd = torch.CmdLine()
 cmd:option('-batchSize',1, 'mini-batch size')
@@ -72,6 +72,8 @@ end
 local function permuteposs(N, nclasses)
 -- create copies of labels for each possible global permutation
 
+
+    --[[
 	if nclasses == 2 then
 		p=torch.Tensor(2,2)
 		p[1][1]=1
@@ -104,6 +106,13 @@ local function permuteposs(N, nclasses)
 	else
 		print('not implemented yet')
 	end
+    --]]
+   
+    p_table = {}
+    for i=1,nclasses do p_table[i] = i end
+    p = torch.Tensor(permute.table(p_table))
+    print ("permutation\n")
+    print (p)
 
 	tg = cast(torch.Tensor(p:size(1),opt.N))
 	print(tg:size())
@@ -161,8 +170,10 @@ if opt.nclasses == 2 then
 classes = {'1', '2'}
 elseif opt.nclasses == 3 then
 classes = {'1', '2', '3'}
-else
+elseif opt.nclasses == 4 then
 classes = {'1', '2', '3', '4'}
+elseif opt.nclasses == 5 then
+classes = {'1', '2', '3', '4', '5'}
 end
 confusion = optim.ConfusionMatrix(classes)
 accLogger = optim.Logger(paths.concat(opt.dpath,'accuracy.log'))
@@ -434,7 +445,3 @@ end
 	fd:write('\n')
 	fd:write(messg)
 	fd:close()
-	end
-
-
-
